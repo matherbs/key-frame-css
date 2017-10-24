@@ -1,0 +1,150 @@
+
+.movee {
+  width: 260px;
+  height: 260px;
+  margin-left: 800px;
+  margin-top: 350px;
+  animation: movee 20s infinite;
+  animation-timing-function: linear;
+  border: 2px solid red;
+}
+
+#overdrone {
+  width: 258px;
+  height: 258px;
+  animation: overdrone 20s infinite;
+  animation-timing-function: linear;
+}
+
+#drone{
+width: 256px;
+height: 256px;
+animation: drone 20s infinite;
+animation-timing-function: linear;
+}
+
+#airscrew {
+  position: absolute;
+  animation: airscrew 20s infinite;
+  animation-timing-function: linear;
+}
+
+#airscrew1 {
+  position: absolute;
+  animation: airscrew1 20s infinite;
+  animation-timing-function: linear;
+}
+
+#airscrew2 {
+  position: absolute;
+  animation: airscrew2 20s infinite;
+  animation-timing-function: linear;
+}
+
+#airscrew3 {
+  position: absolute;
+  animation: airscrew3 20s infinite;
+  animation-timing-function: linear;
+}
+
+#airscrew4 {
+  position: absolute;
+  animation: airscrew4 20s infinite;
+  animation-timing-function: linear;
+}
+
+#airscrew5 {
+  position: absolute;
+  animation: airscrew5 20s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes airscrew {
+  0%    {opacity: 1;}
+  3%    {opacity: 1;}
+  100%  {opacity: 0;}
+
+  0%    {opacity: 0;}
+  97%   {opacity: 1;}
+  100%  {opacity: 1;}
+}
+
+@keyframes airscrew1 {
+  0%    {opacity: 0;}
+  3%    {opacity: 1;}
+  6%    {opacity: 0;}
+
+
+  94%    {opacity: 0;}
+  97%    {opacity: 1;}
+  100%   {opacity: 0;}
+}
+
+@keyframes airscrew2 {
+  0%    {opacity: 0;}
+  6%    {opacity: 1;}
+  9%    {opacity: 0;}
+
+
+  91%    {opacity: 0;}
+  94%    {opacity: 1;}
+  100%    {opacity: 0;}
+}
+
+@keyframes airscrew3 {
+  0%    {opacity: 0;}
+  9%    {opacity: 1;}
+  12%   {opacity: 0;}
+
+
+  88%    {opacity: 0;}
+  91%    {opacity: 1;}
+  100%   {opacity: 0;}
+}
+
+@keyframes airscrew4 {
+  0%    {opacity: 0;}
+  12%   {opacity: 1;}
+  26%   {opacity: 1;}
+  27%   {opacity: 0;}
+
+  73%   {opacity: 0;}
+  74%   {opacity: 1;}
+  88%   {opacity: 1;}
+  100%   {opacity: 0;}
+}
+
+@keyframes airscrew5 {
+  0%    {opacity: 0;}
+  14%   {opacity: 0;}
+  15%   {opacity: 1;}
+  18%   {opacity: 0;}
+  21%   {opacity: 1;}
+  24%   {opacity: 0;}
+  27%   {opacity: 1;}
+
+  73%   {opacity: 1;}
+  76%   {opacity: 0;}
+  79%   {opacity: 1;}
+  82%   {opacity: 0;}
+  85%   {opacity: 1;}
+  86%   {opacity: 0;}
+  100%  {opacity: 0;}
+}
+
+@keyframes drone {
+  27%   {transform: rotate(0deg);}
+  28%   {transform: rotate(-14400deg);}
+  72%    {transform: rotate(0deg);}
+}
+
+@keyframes overdrone {
+  28%   {transform: rotateY(0deg);}
+  29%   {transform: rotateY(60deg);}
+}
+
+@keyframes movee {
+  0%    {left: 0px;}
+  50%    {right: 500px;}
+  100%    {left: 0px;}
+}

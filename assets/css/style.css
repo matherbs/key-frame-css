@@ -1,0 +1,43 @@
+.drone {
+  width: 300px;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+#drone1 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+  animation: drone1 5s infinite;
+  animation-timing-function: linear;
+}
+
+#drone2 {
+  position: absolute;
+  width: 275px;
+  height: 300px;
+  animation: drone2 5s infinite;
+  animation-timing-function: linear;
+}
+@keyframes drone1 {
+  0%   {opacity: 1;
+        transform: rotate(30deg);
+        left: 46%;}
+  45%  {opacity: 1;}
+  50%  {transform: rotate(-30deg);
+        opacity: 0;}
+  90%  {opacity: 0;}
+  100% {transform: rotate(30deg);}
+}
+
+@keyframes drone2 {
+  0%   {opacity: 0;
+        transform: rotate(30deg);
+        left: 46%;}
+  5%   {transform: rotate(30deg);}
+  45%  {opacity: 0;}
+  50%  {transform: rotate(-30deg);
+        opacity: 1;}
+  90%  {opacity: 1;}
+  100% {transform: rotate(30deg);}
+}
