@@ -138,7 +138,7 @@ animation-timing-function: linear;
   72%    {transform: rotate(0deg);}
 }
 
-@keyframes overdrone {
+/*@keyframes overdrone {
   28%   {transform: rotateY(0deg);}
   29%   {transform: rotateY(60deg);}
 }
